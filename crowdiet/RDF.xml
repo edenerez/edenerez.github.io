@@ -1,0 +1,746 @@
+<rdf:Property rdf:ID="absorption-enhanced-by"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="affected-by"><rdfs:domain rdf:resource="#cardiovascular_system"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="affected-by"><rdfs:domain rdf:resource="#cell"/><rdfs:range rdf:resource="#metabolic_disease"/></rdf:Property>
+<rdf:Property rdf:ID="affected-by"><rdfs:domain rdf:resource="#kidney"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="affects"><rdfs:domain rdf:resource="#manganese"/><rdfs:range rdf:resource="#neurological_system"/></rdf:Property>
+<rdf:Property rdf:ID="affects"><rdfs:domain rdf:resource="#soy_milk"/><rdfs:range rdf:resource="#cardiovascular_functioning"/></rdf:Property>
+<rdf:Property rdf:ID="affects"><rdfs:domain rdf:resource="#hypertension"/><rdfs:range rdf:resource="#cardiovascular_system"/></rdf:Property>
+<rdf:Property rdf:ID="affects"><rdfs:domain rdf:resource="#hypertension"/><rdfs:range rdf:resource="#kidney"/></rdf:Property>
+<rdf:Property rdf:ID="affects"><rdfs:domain rdf:resource="#lactose"/><rdfs:range rdf:resource="#intestine"/></rdf:Property>
+<rdf:Property rdf:ID="affects"><rdfs:domain rdf:resource="#lactose"/><rdfs:range rdf:resource="#lactose_intolerance"/></rdf:Property>
+<rdf:Property rdf:ID="affects"><rdfs:domain rdf:resource="#metabolic_disease"/><rdfs:range rdf:resource="#cell"/></rdf:Property>
+<rdf:Property rdf:ID="associated-with"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="associated-with"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#weight_loss"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-increased-by"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-increased-by"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-increased-by"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#zinc"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-increased-by"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-increased-by"><rdfs:domain rdf:resource="#muscle_protein_synthesis"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-increased-by"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-increased-by"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-inhibited-by"><rdfs:domain rdf:resource="#tumor"/><rdfs:range rdf:resource="#selenium"/></rdf:Property>
+<rdf:Property rdf:ID="can-be-stimulated-by"><rdfs:domain rdf:resource="#muscle_accretion"/><rdfs:range rdf:resource="#peptide"/></rdf:Property>
+<rdf:Property rdf:ID="can-increase"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#muscle_protein_synthesis"/></rdf:Property>
+<rdf:Property rdf:ID="can-inhibit"><rdfs:domain rdf:resource="#selenium"/><rdfs:range rdf:resource="#tumor"/></rdf:Property>
+<rdf:Property rdf:ID="can-stimulate"><rdfs:domain rdf:resource="#peptide"/><rdfs:range rdf:resource="#muscle_accretion"/></rdf:Property>
+<rdf:Property rdf:ID="caused-by"><rdfs:domain rdf:resource="#atherosclorosis"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="caused-by"><rdfs:domain rdf:resource="#chronic_disease"/><rdfs:range rdf:resource="#polyunsaturated_fat"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#atherosclorosis"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#polyunsaturated_fat"/><rdfs:range rdf:resource="#chronic_disease"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#hormonal_effect"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#obesity"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#weight_gain"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#hypertension"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#estrogen_dependent_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="causes"><rdfs:domain rdf:resource="#sugar"/><rdfs:range rdf:resource="#obesity"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#antinutrient"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#antioxidant"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#bodies_digest_sugars"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#carbohydrate"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#essential_amino_acid"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#fiber"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#folacin"/><rdfs:range rdf:resource="#offal"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#magnesium"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#micronutrient"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#nucleotide"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#omega_3"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#omega_3"/><rdfs:range rdf:resource="#soy_oil"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#omega_3"/><rdfs:range rdf:resource="#tofu"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#peptide"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#phytochemical"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#polyunsatured"/><rdfs:range rdf:resource="#soy_oil"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#tissue"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#protein_hydrolysate"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#selenium"/><rdfs:range rdf:resource="#beef_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#sodium"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#soy_protein"/><rdfs:range rdf:resource="#soy_milk"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#vitamin_a"/><rdfs:range rdf:resource="#offal"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#vitamin_d"/><rdfs:range rdf:resource="#soy_milk"/></rdf:Property>
+<rdf:Property rdf:ID="contained-in"><rdfs:domain rdf:resource="#vitamin_k"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#body_organ"/><rdfs:range rdf:resource="#body_substance"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#raw_milk_cheese"/><rdfs:range rdf:resource="#pathogen"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_oil"/><rdfs:range rdf:resource="#polyunsaturated"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#liquid_cow_milk"/><rdfs:range rdf:resource="#water_cheese"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#animal_product"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#calcium"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#igf_1"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#lactose"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#sugar"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#trans_fat"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#vitamin_d"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#liquid_cow_milk"/><rdfs:range rdf:resource="#phosphorus"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#liquid_cow_milk"/><rdfs:range rdf:resource="#saturated_fat"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#meat_lipid"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#sodium"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#isoflavone"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#magnesium"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#phytochemical"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#vitamin_b"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#vitamin_c"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#vitamin_k"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_milk"/><rdfs:range rdf:resource="#soy_protein"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_milk"/><rdfs:range rdf:resource="#vitamin_d"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_oil"/><rdfs:range rdf:resource="#omega_3"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#calcium"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#carbohydrate"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#fiber"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#tofu"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#tofu"/><rdfs:range rdf:resource="#omega_3"/></rdf:Property>
+<rdf:Property rdf:ID="contains"><rdfs:domain rdf:resource="#tofu"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="could-cause"><rdfs:domain rdf:resource="#yogurt"/><rdfs:range rdf:resource="#migraine"/></rdf:Property>
+<rdf:Property rdf:ID="could-cause"><rdfs:domain rdf:resource="#trans_fat"/><rdfs:range rdf:resource="#heart_disease"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#omega_3"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#diverticulosis"/><rdfs:range rdf:resource="#fiber"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#digestive_disease"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#blood_pressure"/><rdfs:range rdf:resource="#soy_fiber"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cancer"/><rdfs:range rdf:resource="#phytochemical"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#soy_fiber"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#hunger"/><rdfs:range rdf:resource="#soy_protein"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#abnormal_reproduction"/><rdfs:range rdf:resource="#magnesium"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cardiovascular_system"/><rdfs:range rdf:resource="#meat_lipid"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#anemia"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cancer"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#plant_fat"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#heart_disease"/><rdfs:range rdf:resource="#antioxidant"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#menopause"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="decreased-by"><rdfs:domain rdf:resource="#musculoskeletal_system"/><rdfs:range rdf:resource="#obesity"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#fiber"/><rdfs:range rdf:resource="#diverticulosis"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#omega_3"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_fiber"/><rdfs:range rdf:resource="#blood_pressure"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#digestive_disease"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#phytochemical"/><rdfs:range rdf:resource="#cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#menopause"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_fiber"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_protein"/><rdfs:range rdf:resource="#hunger"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_protein"/><rdfs:range rdf:resource="#ldl_cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_protein"/><rdfs:range rdf:resource="#triglyceride"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#red_bloods_cell"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#zinc"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#magnesium"/><rdfs:range rdf:resource="#abnormal_reproduction"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#plant_fat"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#meat_lipid"/><rdfs:range rdf:resource="#cardiovascular_system"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#antioxidant"/><rdfs:range rdf:resource="#heart_disease"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#anemia"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#metabolic_syndrome"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#overweight"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#obesity"/><rdfs:range rdf:resource="#musculoskeletal_system"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_milk"/><rdfs:range rdf:resource="#obesity"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases"><rdfs:domain rdf:resource="#yogurt"/><rdfs:range rdf:resource="#overweight"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_a"/><rdfs:range rdf:resource="#respiratory_tract_disease"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#loss_of_appetite"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#kidney_stones"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#hair_loss"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#osteoporosis"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#ovarian_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#bladder_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#colorectal_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#bone_fracture"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#protein_hydrolysate"/><rdfs:range rdf:resource="#visceral_fat_deposition"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#dementia"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_d"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#common_cold"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#weight_loss"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#prostate_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#depression"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#depression"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#metabolic_syndrome"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#anemia"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#breaking_nails"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#fatigue"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#diabetes"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#micronutrient"/><rdfs:range rdf:resource="#bone_fracture"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#abdominal_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#confusion"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#constipation"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#fatigue"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#megaloblastic_anemia"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#neurologic_impairment"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#poor_memory"/></rdf:Property>
+<rdf:Property rdf:ID="decreases-the-risk-of"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#weakness"/></rdf:Property>
+<rdf:Property rdf:ID="enhances-absorption-of"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#healthy_teeth"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#cholesterol_level"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#phosphorus"/><rdfs:range rdf:resource="#bone"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#adequately_hydrated"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#niacin"/><rdfs:range rdf:resource="#bodies_digest_sugars"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#potassium"/><rdfs:range rdf:resource="#normal_blood_pressure"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#riboflavin"/><rdfs:range rdf:resource="#normal_eyesight_and_healthy_skin"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#vitamin_a"/><rdfs:range rdf:resource="#healthy_immune_system"/></rdf:Property>
+<rdf:Property rdf:ID="essential-for"><rdfs:domain rdf:resource="#vitamin_d"/><rdfs:range rdf:resource="#growth"/></rdf:Property>
+<rdf:Property rdf:ID="has-bioprocess"><rdfs:domain rdf:resource="#bile_acid"/><rdfs:range rdf:resource="#bile_acid_metabolism"/></rdf:Property>
+<rdf:Property rdf:ID="has-bioprocess"><rdfs:domain rdf:resource="#muscle"/><rdfs:range rdf:resource="#muscle_protein_synthesis"/></rdf:Property>
+<rdf:Property rdf:ID="has-medical-condition"><rdfs:domain rdf:resource="#bone_tissue"/><rdfs:range rdf:resource="#bone_fracture"/></rdf:Property>
+<rdf:Property rdf:ID="has-physiological-process"><rdfs:domain rdf:resource="#visceral_fat"/><rdfs:range rdf:resource="#visceral_fat_deposition"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by"><rdfs:domain rdf:resource="#atopic_dermatitis"/><rdfs:range rdf:resource="#soy_formula"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by"><rdfs:domain rdf:resource="#hormonal_imbalance"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by"><rdfs:domain rdf:resource="#breast_cancer"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#respiratory_tract_disease"/><rdfs:range rdf:resource="#vitamin_a"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#depression"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#depression"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#anemia"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#breaking_nails"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#confusion"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#dementia"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#fatigue"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#hair_loss"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#neurologic_impairment"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-increased-by-deficiency-of"><rdfs:domain rdf:resource="#poor_memory"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="has-risk-indicator"><rdfs:domain rdf:resource="#bone_tissue"/><rdfs:range rdf:resource="#bone_mineral_density"/></rdf:Property>
+<rdf:Property rdf:ID="helps-prevent"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#osteoporosis"/></rdf:Property>
+<rdf:Property rdf:ID="helps-prevent"><rdfs:domain rdf:resource="#dairy_protein"/><rdfs:range rdf:resource="#osteoporosis"/></rdf:Property>
+<rdf:Property rdf:ID="helps-prevent"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#macular_degeneration"/></rdf:Property>
+<rdf:Property rdf:ID="helps-prevent"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#gout"/></rdf:Property>
+<rdf:Property rdf:ID="helps-prevent"><rdfs:domain rdf:resource="#riboflavin"/><rdfs:range rdf:resource="#cataract"/></rdf:Property>
+<rdf:Property rdf:ID="helps-prevent"><rdfs:domain rdf:resource="#amino_acid"/><rdfs:range rdf:resource="#muscle_breakdown"/></rdf:Property>
+<rdf:Property rdf:ID="helps-prevent"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#migraine"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#potassium"/><rdfs:range rdf:resource="#exercise_induced_asthma"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#potassium"/><rdfs:range rdf:resource="#high_altitude_disease"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#vitamin"/><rdfs:range rdf:resource="#stroke"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#potassium"/><rdfs:range rdf:resource="#gastrointestinal_tract_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#inflammatory"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#stroke"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#soy_bean"/><rdfs:range rdf:resource="#osteoporosis"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="helps-to-treat"><rdfs:domain rdf:resource="#potassium"/><rdfs:range rdf:resource="#meniere's_syndrome"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#vitamin_d"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#digestive_system"/><rdfs:range rdf:resource="#plant_fat"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#blood_clotting"/><rdfs:range rdf:resource="#vitamin_k"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#bone_density"/><rdfs:range rdf:resource="#calcium"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#bone_density"/><rdfs:range rdf:resource="#vitamin_d"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#bone_functioning"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#cell_division"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="improved-by"><rdfs:domain rdf:resource="#laxation"/><rdfs:range rdf:resource="#soy_fiber"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#oxygen_transfer"/><rdfs:range rdf:resource="#kidneys_function"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#plant_fat"/><rdfs:range rdf:resource="#digestive_system"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#vitamin_d"/><rdfs:range rdf:resource="#calcium"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#bone_health"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#brain_function"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#bone_functioning"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#vitamin_c"/><rdfs:range rdf:resource="#bone_density"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#plasma_lipid_profile"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#reproductive_function"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#bone_density"/><rdfs:range rdf:resource="#body_strength"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#bone_density"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#immune_system"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#oxygen_transfer"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#oxygen_transfer"/><rdfs:range rdf:resource="#brain_activity"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#soy_fiber"/><rdfs:range rdf:resource="#laxation"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#cell_division"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#vitamin_c"/><rdfs:range rdf:resource="#immune_system"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#vitamin_d"/><rdfs:range rdf:resource="#bone_density"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#vitamin_k"/><rdfs:range rdf:resource="#blood_clotting"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#cell_division_growth"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#gene_expression"/></rdf:Property>
+<rdf:Property rdf:ID="improves"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#immune_function"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#beef_product"/><rdfs:range rdf:resource="#selenium"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#calcium"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#dairy_protein"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#riboflavin"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#vitamin_a"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#vitamin_d"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#zinc"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#essential_amino_acid"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#micronutrient"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#nucleotide"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#omega_3"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#peptide"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#protein_hydrolysate"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#niacin"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#phosphorus"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#potassium"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#riboflavin"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#offal"/><rdfs:range rdf:resource="#folacin"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#offal"/><rdfs:range rdf:resource="#vitamin_a"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#amino_acid"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#red_meat"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#red_meat"/><rdfs:range rdf:resource="#potassium"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#red_meat"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#antioxidant_property"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#folic_acid"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#isoflavone"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#pantothenic_acid"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#vitamin_b6"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#vitamin_c"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#vitamin_k"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy_beverage"/><rdfs:range rdf:resource="#manganese"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#antinutrient"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#isoflavone"/></rdf:Property>
+<rdf:Property rdf:ID="includes"><rdfs:domain rdf:resource="#tissue"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#blood_pressure"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#colon_cancer"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#diabetes"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#hypertension"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#obesity"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#dementia"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#nervous_system"/><rdfs:range rdf:resource="#mineral"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#atherosclorosis"/><rdfs:range rdf:resource="#diabetes"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#atherosclorosis"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#blood_pressure"/><rdfs:range rdf:resource="#sodium"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#blood_vessel_functioning"/><rdfs:range rdf:resource="#mineral"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#cancer"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#cell_division"/><rdfs:range rdf:resource="#folic_acid"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#saturated_fat"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#chronic_disease"/><rdfs:range rdf:resource="#deficiency_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#chronic_disease"/><rdfs:range rdf:resource="#excess_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#digestive_disease"/><rdfs:range rdf:resource="#meat_product"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#heart_disease"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#stroke"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="increased-by"><rdfs:domain rdf:resource="#weight_loss"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#blood_pressure"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#soy_protein"/><rdfs:range rdf:resource="#hdl_(good)_cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#digestive_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#obesity"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#calcium"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#weight_loss"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#dementia"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#diabetes"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#manganese"/><rdfs:range rdf:resource="#adhd"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#mineral"/><rdfs:range rdf:resource="#nervous_system"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#heart_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#cholesterol"/><rdfs:range rdf:resource="#stroke"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#calcium_level"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#deficiency_disease"/><rdfs:range rdf:resource="#chronic_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#diabetes"/><rdfs:range rdf:resource="#atherosclorosis"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#excess_disease"/><rdfs:range rdf:resource="#chronic_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#folic_acid"/><rdfs:range rdf:resource="#cell_division"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#hypertension"/><rdfs:range rdf:resource="#atherosclorosis"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#meat_product"/><rdfs:range rdf:resource="#colon_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#mineral"/><rdfs:range rdf:resource="#blood_vessel_functioning"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#amino_acid"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#kidney_stones"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#saturated_fat"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#saturated_fat"/><rdfs:range rdf:resource="#coronary_heart_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#sodium"/><rdfs:range rdf:resource="#blood_pressure"/></rdf:Property>
+<rdf:Property rdf:ID="increases"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#weight_loss"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#igf_1"/><rdfs:range rdf:resource="#prostate_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#liquid_cow_milk"/><rdfs:range rdf:resource="#osteoporosis"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#liver_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#prostate_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#children_diabetes"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#liver_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#metabolic_syndrome"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#parkinson"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#liquid_cow_milk"/><rdfs:range rdf:resource="#heart_disease"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#liquid_cow_milk"/><rdfs:range rdf:resource="#multiple_sclerosis"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#soy_formula"/><rdfs:range rdf:resource="#atopic_dermatitis"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#hormonal_imbalance"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#igf_1"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#lactose_intolerance"/><rdfs:range rdf:resource="#abdominal_cramping"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#lactose_intolerance"/><rdfs:range rdf:resource="#abdominal_pain"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#lactose_intolerance"/><rdfs:range rdf:resource="#bloating"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#lactose_intolerance"/><rdfs:range rdf:resource="#diarrhea"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#lactose_intolerance"/><rdfs:range rdf:resource="#flatulence"/></rdf:Property>
+<rdf:Property rdf:ID="increases-the-risk-of"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdfs:Class rdf:ID="plasma_lipid_profile"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="body_symptom"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="abdomen"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="body_substance"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone_health"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="cholesterol_level"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="disease"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="health_problem"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="hormone"><rdfs:SubClassOf rdf:resource="#body_substance"/></rdfs:Class>
+<rdfs:Class rdf:ID="meniere's_syndrome"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="mental_condition"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="omega_3"><rdfs:SubClassOf rdf:resource="#polyunsaturated"/></rdfs:Class>
+<rdfs:Class rdf:ID="omega_6"><rdfs:SubClassOf rdf:resource="#polyunsaturated"/></rdfs:Class>
+<rdfs:Class rdf:ID="symptom"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="antinutrient"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="antioxidant"><rdfs:SubClassOf rdf:resource="#isoflavone"/></rdfs:Class>
+<rdfs:Class rdf:ID="antioxidant_property"><rdfs:SubClassOf rdf:resource="#phytochemical"/></rdfs:Class>
+<rdfs:Class rdf:ID="blood"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone_density"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="abdominal_cramping"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="abdominal_pain"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="adhd"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="age_related_loss_of_memory"><rdfs:SubClassOf rdf:resource="#neurological_function"/></rdfs:Class>
+<rdfs:Class rdf:ID="air_sickness"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="amino_acid"><rdfs:SubClassOf rdf:resource="#organic_compound"/></rdfs:Class>
+<rdfs:Class rdf:ID="anemia"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="animal_product"><rdfs:SubClassOf rdf:resource="#food_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="asthma"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="atherosclorosis"><rdfs:SubClassOf rdf:resource="#cardiovascular_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="atopic_dermatitis"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="autoimmune_condition"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="beef_product"><rdfs:SubClassOf rdf:resource="#red_meat"/></rdfs:Class>
+<rdfs:Class rdf:ID="bile_acid"><rdfs:SubClassOf rdf:resource="#organic_compound"/></rdfs:Class>
+<rdfs:Class rdf:ID="bile_acid_metabolism"><rdfs:SubClassOf rdf:resource="#biological_process"/></rdfs:Class>
+<rdfs:Class rdf:ID="biochemical_process"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="biological_process"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="bladder_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="bloating"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="blood_clotting"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="blood_pressure"><rdfs:SubClassOf rdf:resource="#blood_vessel_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="blood_vessel"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="blood_vessel_functioning"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="body"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="body_organ"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="body_strength"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="body_symptom"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone_density"><rdfs:SubClassOf rdf:resource="#bone_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone_fracture"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone_functioning"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone_mineral_density"><rdfs:SubClassOf rdf:resource="#medical_risk_indicator"/></rdfs:Class>
+<rdfs:Class rdf:ID="bone_tissue"><rdfs:SubClassOf rdf:resource="#tissue"/></rdfs:Class>
+<rdfs:Class rdf:ID="brain"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="brain_function"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="breaking_nails"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="breast"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="breast_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="breast_cancer"><rdfs:SubClassOf rdf:resource="#estrogen_dependent_cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="calcium"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="cancer"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="carbohydrate"><rdfs:SubClassOf rdf:resource="#macronutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="cardiovascular_functioning"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="cardiovascular_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="casein"><rdfs:SubClassOf rdf:resource="#protein"/></rdfs:Class>
+<rdfs:Class rdf:ID="cell_division_growth"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="chemical_substance"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="children_diabetes"><rdfs:SubClassOf rdf:resource="#diabetes"/></rdfs:Class>
+<rdfs:Class rdf:ID="cholesterol"><rdfs:SubClassOf rdf:resource="#fat"/></rdfs:Class>
+<rdfs:Class rdf:ID="cholesterol"><rdfs:SubClassOf rdf:resource="#lipid"/></rdfs:Class>
+<rdfs:Class rdf:ID="chronic_degenerative_disease"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="chronic_disease"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="circulatory_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="colon_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="colorectal_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="common_cold"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="confusion"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="constipation"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="coronary_heart_disease"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="dairy_product"><rdfs:SubClassOf rdf:resource="#food_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="dairy_protein"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="deficiency_disease"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="dementia"><rdfs:SubClassOf rdf:resource="#mental_condition"/></rdfs:Class>
+<rdfs:Class rdf:ID="diabetes"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="diabetes"><rdfs:SubClassOf rdf:resource="#metabolic_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="diarrhea"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="digestion"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="digestive_disease"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="disease"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="disease_generator"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="diverticulosis"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="DNA_methylation"><rdfs:SubClassOf rdf:resource="#biochemical_process"/></rdfs:Class>
+<rdfs:Class rdf:ID="DNA_synthesis"><rdfs:SubClassOf rdf:resource="#biological_process"/></rdfs:Class>
+<rdfs:Class rdf:ID="essential_amino_acid"><rdfs:SubClassOf rdf:resource="#amino_acid"/></rdfs:Class>
+<rdfs:Class rdf:ID="essential_amino_acid"><rdfs:SubClassOf rdf:resource="#protein"/></rdfs:Class>
+<rdfs:Class rdf:ID="estrogen_dependent_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="excess_disease"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="excretion"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="exercise_induced_asthma"><rdfs:SubClassOf rdf:resource="#asthma"/></rdfs:Class>
+<rdfs:Class rdf:ID="fat"><rdfs:SubClassOf rdf:resource="#macronutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="fatigue"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="fiber"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="flatulence"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="folacin"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="folic_acid"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="food_product"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="gastrointestinal_tract"><rdfs:SubClassOf rdf:resource="#digestive_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="gastrointestinal_tract_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="gene_expression"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="hair_loss"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="hdl_(good)_cholesterol"><rdfs:SubClassOf rdf:resource="#fat"/></rdfs:Class>
+<rdfs:Class rdf:ID="healthy_teeth"><rdfs:SubClassOf rdf:resource="#teeth"/></rdfs:Class>
+<rdfs:Class rdf:ID="heart"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="heart_attack"><rdfs:SubClassOf rdf:resource="#atherosclorosis"/></rdfs:Class>
+<rdfs:Class rdf:ID="heart_disease"><rdfs:SubClassOf rdf:resource="#cardiovascular_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="heart_disease"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="high_altitude_sickness"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="high_blood_pressure"><rdfs:SubClassOf rdf:resource="#cardiovascular_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="high_blood_pressure"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="hormonal_effect"><rdfs:SubClassOf rdf:resource="#physiological_effect"/></rdfs:Class>
+<rdfs:Class rdf:ID="hormonal_imbalance"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="hot_flash"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="hunger"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="hypertension"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="hypertension"><rdfs:SubClassOf rdf:resource="#cardiovascular_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="hypertension"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="hypertension"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="igf_1"><rdfs:SubClassOf rdf:resource="#hormone"/></rdfs:Class>
+<rdfs:Class rdf:ID="immune_function"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="immune_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="infection"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="inflammatory"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="insomnia"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="intestinal_tract"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="intestine"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="iron"><rdfs:SubClassOf rdf:resource="#mineral"/></rdfs:Class>
+<rdfs:Class rdf:ID="isoflavone"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="isoflavone"><rdfs:SubClassOf rdf:resource="#organic_compound"/></rdfs:Class>
+<rdfs:Class rdf:ID="isoflavone"><rdfs:SubClassOf rdf:resource="#phytoestrogen"/></rdfs:Class>
+<rdfs:Class rdf:ID="kidney"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="kidney_stone"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="kidneys_function"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="lactose"><rdfs:SubClassOf rdf:resource="#carbohydrate"/></rdfs:Class>
+<rdfs:Class rdf:ID="lactose_intolerance"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="laxation"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="ldl_cholesterol"><rdfs:SubClassOf rdf:resource="#fat"/></rdfs:Class>
+<rdfs:Class rdf:ID="leucine"><rdfs:SubClassOf rdf:resource="#essential_amino_acid"/></rdfs:Class>
+<rdfs:Class rdf:ID="lipid"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="liquid_cow_milk"><rdfs:SubClassOf rdf:resource="#dairy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="liver_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="lung_function"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="macronutrient"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="macular_degeneration"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="meat_product"><rdfs:SubClassOf rdf:resource="#food_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="medical_risk_indicator"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="megaloblastic_anemia"><rdfs:SubClassOf rdf:resource="#anemia"/></rdfs:Class>
+<rdfs:Class rdf:ID="menopausal_symptom"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="menopause"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="metabolic_disease"><rdfs:SubClassOf rdf:resource="#chronic_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="metabolic_syndrome"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="micronutrient"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="migraine"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="milk_product"><rdfs:SubClassOf rdf:resource="#dairy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="mineral"><rdfs:SubClassOf rdf:resource="#micronutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="mineral"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="multiple_sclerosis"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="muscle"><rdfs:SubClassOf rdf:resource="#soft_tissue"/></rdfs:Class>
+<rdfs:Class rdf:ID="muscle_accretion"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="muscle_functioning"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="muscle_protein_synthesis"><rdfs:SubClassOf rdf:resource="#protein_synthesis"/></rdfs:Class>
+<rdfs:Class rdf:ID="musculoskeletal_disease"><rdfs:SubClassOf rdf:resource="#chronic_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="musculoskeletal_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="nervous_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="neurologic_impairment"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="neurological_function"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="neurological_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="niacin"><rdfs:SubClassOf rdf:resource="#vitamin_b"/></rdfs:Class>
+<rdfs:Class rdf:ID="normal_blood_pressure"><rdfs:SubClassOf rdf:resource="#blood_pressure"/></rdfs:Class>
+<rdfs:Class rdf:ID="nucleotide"><rdfs:SubClassOf rdf:resource="#organic_compound"/></rdfs:Class>
+<rdfs:Class rdf:ID="nutritional_deficiency_disease"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="nutritional_element"><rdfs:SubClassOf rdf:resource="#nutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="nutritional_element"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="obesity"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="obesity"><rdfs:SubClassOf rdf:resource="#excess_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="offal"><rdfs:SubClassOf rdf:resource="#meat_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="omega_3"><rdfs:SubClassOf rdf:resource="#chemical_substance"/></rdfs:Class>
+<rdfs:Class rdf:ID="organic_compound"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="osteoporosis"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="osteoporosis"><rdfs:SubClassOf rdf:resource="#musculoskeletal_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="ovarian_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="overweight"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="oxygen_transfer"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="pantothenic_acid"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="parkinson"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="pathogen"><rdfs:SubClassOf rdf:resource="#disease_generator"/></rdfs:Class>
+<rdfs:Class rdf:ID="peptide"><rdfs:SubClassOf rdf:resource="#organic_compound"/></rdfs:Class>
+<rdfs:Class rdf:ID="phosphorus"><rdfs:SubClassOf rdf:resource="#mineral"/></rdfs:Class>
+<rdfs:Class rdf:ID="physiological_effect"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="physiological_system"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="physiological_system_functioning"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="phytochemical"><rdfs:SubClassOf rdf:resource="#micronutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="phytochemical"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="phytoestrogen"><rdfs:SubClassOf rdf:resource="#phytohormone"/></rdfs:Class>
+<rdfs:Class rdf:ID="phytohormone"><rdfs:SubClassOf rdf:resource="#phytochemical"/></rdfs:Class>
+<rdfs:Class rdf:ID="plant_origin_product"><rdfs:SubClassOf rdf:resource="#food_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="poor_memory"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="potassium"><rdfs:SubClassOf rdf:resource="#mineral"/></rdfs:Class>
+<rdfs:Class rdf:ID="prostate_cancer"><rdfs:SubClassOf rdf:resource="#cancer"/></rdfs:Class>
+<rdfs:Class rdf:ID="protein"><rdfs:SubClassOf rdf:resource="#macronutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="protein"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="protein_hydrolysate"><rdfs:SubClassOf rdf:resource="#chemical_substance"/></rdfs:Class>
+<rdfs:Class rdf:ID="protein_synthesis"><rdfs:SubClassOf rdf:resource="#biological_process"/></rdfs:Class>
+<rdfs:Class rdf:ID="raw_milk_cheese"><rdfs:SubClassOf rdf:resource="#dairy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="red_meat"><rdfs:SubClassOf rdf:resource="#meat_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="regulation_blood_pressure"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="reproductive_function"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="respiratory_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="respiratory_tract_disease"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="riboflavin"><rdfs:SubClassOf rdf:resource="#vitamin_b"/></rdfs:Class>
+<rdfs:Class rdf:ID="saturated_fat"><rdfs:SubClassOf rdf:resource="#fat"/></rdfs:Class>
+<rdfs:Class rdf:ID="saturated_fat"><rdfs:SubClassOf rdf:resource="#lipid"/></rdfs:Class>
+<rdfs:Class rdf:ID="scurvy"><rdfs:SubClassOf rdf:resource="#deficiency_disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="selenium"><rdfs:SubClassOf rdf:resource="#mineral"/></rdfs:Class>
+<rdfs:Class rdf:ID="soft_tissue"><rdfs:SubClassOf rdf:resource="#tissue"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy"><rdfs:SubClassOf rdf:resource="#legume"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_bean"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_beverage"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_fiber"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_formula"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_milk"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_oil"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_product"><rdfs:SubClassOf rdf:resource="#food_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="soy_protein"><rdfs:SubClassOf rdf:resource="#protein"/></rdfs:Class>
+<rdfs:Class rdf:ID="stomach"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="stroke"><rdfs:SubClassOf rdf:resource="#atherosclorosis"/></rdfs:Class>
+<rdfs:Class rdf:ID="stroke"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="sugar"><rdfs:SubClassOf rdf:resource="#macronutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="teeth"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="thyroid_function"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="tissue"><rdfs:SubClassOf rdf:resource="#thing"/></rdfs:Class>
+<rdfs:Class rdf:ID="tofu"><rdfs:SubClassOf rdf:resource="#soy"/></rdfs:Class>
+<rdfs:Class rdf:ID="tofu"><rdfs:SubClassOf rdf:resource="#soy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="trans_fat"><rdfs:SubClassOf rdf:resource="#fat"/></rdfs:Class>
+<rdfs:Class rdf:ID="triglyceride"><rdfs:SubClassOf rdf:resource="#fat"/></rdfs:Class>
+<rdfs:Class rdf:ID="tumor"><rdfs:SubClassOf rdf:resource="#health_problem"/></rdfs:Class>
+<rdfs:Class rdf:ID="type_2_diabetes"><rdfs:SubClassOf rdf:resource="#disease"/></rdfs:Class>
+<rdfs:Class rdf:ID="urinary_organ"><rdfs:SubClassOf rdf:resource="#body_organ"/></rdfs:Class>
+<rdfs:Class rdf:ID="urinary_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="vascular_system"><rdfs:SubClassOf rdf:resource="#physiological_system"/></rdfs:Class>
+<rdfs:Class rdf:ID="visceral_fat"><rdfs:SubClassOf rdf:resource="#soft_tissue"/></rdfs:Class>
+<rdfs:Class rdf:ID="visceral_fat_deposition"><rdfs:SubClassOf rdf:resource="#physiological_system_functioning"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin"><rdfs:SubClassOf rdf:resource="#micronutrient"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin"><rdfs:SubClassOf rdf:resource="#nutritional_element"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_a"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_b"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_b12"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_b6"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_c"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_d"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_e"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="vitamin_k"><rdfs:SubClassOf rdf:resource="#vitamin"/></rdfs:Class>
+<rdfs:Class rdf:ID="weakness"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="weight_gain"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="weight_loss"><rdfs:SubClassOf rdf:resource="#body_symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="weight_loss"><rdfs:SubClassOf rdf:resource="#symptom"/></rdfs:Class>
+<rdfs:Class rdf:ID="yogurt"><rdfs:SubClassOf rdf:resource="#dairy_product"/></rdfs:Class>
+<rdfs:Class rdf:ID="zinc"><rdfs:SubClassOf rdf:resource="#mineral"/></rdfs:Class>
+<rdf:Property rdf:ID="is-bioprocess-in"><rdfs:domain rdf:resource="#bile_acid_metabolism"/><rdfs:range rdf:resource="#bile_acid"/></rdf:Property>
+<rdf:Property rdf:ID="is-bioprocess-in"><rdfs:domain rdf:resource="#muscle_protein_synthesis"/><rdfs:range rdf:resource="#muscle"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by"><rdfs:domain rdf:resource="#estrogen_dependent_cancer"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by"><rdfs:domain rdf:resource="#hormonal_effect"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by-deficiency-of"><rdfs:domain rdf:resource="#constipation"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by-deficiency-of"><rdfs:domain rdf:resource="#loss_of_appetite"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by-deficiency-of"><rdfs:domain rdf:resource="#weight_loss"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by-deficiency-of"><rdfs:domain rdf:resource="#fatigue"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by-deficiency-of"><rdfs:domain rdf:resource="#megaloblastic_anemia"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="is-caused-by-deficiency-of"><rdfs:domain rdf:resource="#weakness"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="is-decreased-by"><rdfs:domain rdf:resource="#zinc"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="is-improved-by"><rdfs:domain rdf:resource="#gene_expression"/><rdfs:range rdf:resource="#zinc"/></rdf:Property>
+<rdf:Property rdf:ID="is-improved-by"><rdfs:domain rdf:resource="#cell_division_growth"/><rdfs:range rdf:resource="#zinc"/></rdf:Property>
+<rdf:Property rdf:ID="is-improved-by"><rdfs:domain rdf:resource="#immune_function"/><rdfs:range rdf:resource="#zinc"/></rdf:Property>
+<rdf:Property rdf:ID="is-improved-by"><rdfs:domain rdf:resource="#reproductive_function"/><rdfs:range rdf:resource="#zinc"/></rdf:Property>
+<rdf:Property rdf:ID="is-medical-condition-of"><rdfs:domain rdf:resource="#bone_fracture"/><rdfs:range rdf:resource="#bone_tissue"/></rdf:Property>
+<rdf:Property rdf:ID="is-physiological-process-of"><rdfs:domain rdf:resource="#visceral_fat_deposition"/><rdfs:range rdf:resource="#visceral_fat"/></rdf:Property>
+<rdf:Property rdf:ID="is-prevented-by"><rdfs:domain rdf:resource="#infection"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="is-prevented-by"><rdfs:domain rdf:resource="#anemia"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="is-required-for"><rdfs:domain rdf:resource="#folacin"/><rdfs:range rdf:resource="#DNA_methylation"/></rdf:Property>
+<rdf:Property rdf:ID="is-required-for"><rdfs:domain rdf:resource="#selenium"/><rdfs:range rdf:resource="#immune_function"/></rdf:Property>
+<rdf:Property rdf:ID="is-required-for"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#DNA_synthesis"/></rdf:Property>
+<rdf:Property rdf:ID="is-required-for"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#neurological_function"/></rdf:Property>
+<rdf:Property rdf:ID="is-required-for"><rdfs:domain rdf:resource="#nucleotide"/><rdfs:range rdf:resource="#intestinal_tract"/></rdf:Property>
+<rdf:Property rdf:ID="is-required-for"><rdfs:domain rdf:resource="#vitamin_a"/><rdfs:range rdf:resource="#lung_function"/></rdf:Property>
+<rdf:Property rdf:ID="is-risk-indicator-of"><rdfs:domain rdf:resource="#bone_mineral_density"/><rdfs:range rdf:resource="#bone_tissue"/></rdf:Property>
+<rdf:Property rdf:ID="is-stimulated-by"><rdfs:domain rdf:resource="#protein_synthesis"/><rdfs:range rdf:resource="#leucine"/></rdf:Property>
+<rdf:Property rdf:ID="may-accelerate"><rdfs:domain rdf:resource="#isoflavone"/><rdfs:range rdf:resource="#tumor"/></rdf:Property>
+<rdf:Property rdf:ID="may-adversely-affect"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#circulatory_system"/></rdf:Property>
+<rdf:Property rdf:ID="may-adversely-affect"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#male_fertility"/></rdf:Property>
+<rdf:Property rdf:ID="may-adversely-affect"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#thyroid_function"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-accelerated-by"><rdfs:domain rdf:resource="#tumor"/><rdfs:range rdf:resource="#isoflavone"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-adversely-affected-by"><rdfs:domain rdf:resource="#circulatory_system"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-adversely-affected-by"><rdfs:domain rdf:resource="#male_fertility"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-adversely-affected-by"><rdfs:domain rdf:resource="#thyroid_function"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-benefited-by"><rdfs:domain rdf:resource="#bone_mineral_density"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-benefited-by"><rdfs:domain rdf:resource="#bone_mineral_density"/><rdfs:range rdf:resource="#micronutrient"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-contributed-by"><rdfs:domain rdf:resource="#autoimmune_condition"/><rdfs:range rdf:resource="#antinutrient"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-contributed-by"><rdfs:domain rdf:resource="#nutritional_deficiency_disease"/><rdfs:range rdf:resource="#antinutrient"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-prevented-by"><rdfs:domain rdf:resource="#chronic_degenerative_disease"/><rdfs:range rdf:resource="#selenium"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-prevented-by"><rdfs:domain rdf:resource="#cancer"/><rdfs:range rdf:resource="#DNA_methylation"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-prevented-by"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#omega_3"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-regulated-by"><rdfs:domain rdf:resource="#bile_acid_metabolism"/><rdfs:range rdf:resource="#protein_hydrolysate"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-regulated-by"><rdfs:domain rdf:resource="#hypertension"/><rdfs:range rdf:resource="#protein_hydrolysate"/></rdf:Property>
+<rdf:Property rdf:ID="may-be-weakened-by"><rdfs:domain rdf:resource="#immune_system"/><rdfs:range rdf:resource="#anemia"/></rdf:Property>
+<rdf:Property rdf:ID="may-contribute-to"><rdfs:domain rdf:resource="#antinutrient"/><rdfs:range rdf:resource="#autoimmune_condition"/></rdf:Property>
+<rdf:Property rdf:ID="may-contribute-to"><rdfs:domain rdf:resource="#antinutrient"/><rdfs:range rdf:resource="#nutritional_deficiency_disease"/></rdf:Property>
+<rdf:Property rdf:ID="may-have-beneficial-effect-on"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#bone_mineral_density"/></rdf:Property>
+<rdf:Property rdf:ID="may-have-beneficial-effect-on"><rdfs:domain rdf:resource="#micronutrient"/><rdfs:range rdf:resource="#bone_mineral_density"/></rdf:Property>
+<rdf:Property rdf:ID="may-prevent"><rdfs:domain rdf:resource="#selenium"/><rdfs:range rdf:resource="#chronic_degenerative_disease"/></rdf:Property>
+<rdf:Property rdf:ID="may-prevent"><rdfs:domain rdf:resource="#DNA_methylation"/><rdfs:range rdf:resource="#cancer"/></rdf:Property>
+<rdf:Property rdf:ID="may-prevent"><rdfs:domain rdf:resource="#omega_3"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="may-regulate"><rdfs:domain rdf:resource="#protein_hydrolysate"/><rdfs:range rdf:resource="#bile_acid_metabolism"/></rdf:Property>
+<rdf:Property rdf:ID="may-regulate"><rdfs:domain rdf:resource="#protein_hydrolysate"/><rdfs:range rdf:resource="#hypertension"/></rdf:Property>
+<rdf:Property rdf:ID="may-weaken"><rdfs:domain rdf:resource="#anemia"/><rdfs:range rdf:resource="#immune_system"/></rdf:Property>
+<rdf:Property rdf:ID="modifies"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#immune_system"/></rdf:Property>
+<rdf:Property rdf:ID="needs"><rdfs:domain rdf:resource="#lung_function"/><rdfs:range rdf:resource="#vitamin_a"/></rdf:Property>
+<rdf:Property rdf:ID="needs"><rdfs:domain rdf:resource="#intestinal_tract"/><rdfs:range rdf:resource="#nucleotide"/></rdf:Property>
+<rdf:Property rdf:ID="needs"><rdfs:domain rdf:resource="#DNA_methylation"/><rdfs:range rdf:resource="#folacin"/></rdf:Property>
+<rdf:Property rdf:ID="needs"><rdfs:domain rdf:resource="#DNA_synthesis"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="needs"><rdfs:domain rdf:resource="#immune_function"/><rdfs:range rdf:resource="#selenium"/></rdf:Property>
+<rdf:Property rdf:ID="needs"><rdfs:domain rdf:resource="#neurological_function"/><rdfs:range rdf:resource="#vitamin_b12"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#amino_acid"/><rdfs:range rdf:resource="#protein"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#blood_vessel_functioning"/><rdfs:range rdf:resource="#cardiovascular_system"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#body_organ"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#bone"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#bone_functioning"/><rdfs:range rdf:resource="#musculoskeletal_system"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#breast"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#digestion"/><rdfs:range rdf:resource="#digestive_system"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#excretion"/><rdfs:range rdf:resource="#digestive_system"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#gastrointestinal_tract"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#heart"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#kidney"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#muscle_functioning"/><rdfs:range rdf:resource="#musculoskeletal_system"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#nervous_system"/><rdfs:range rdf:resource="#physiological_system"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#neurological_system"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#physiological_system_functioning"/><rdfs:range rdf:resource="#physiological_system"/></rdf:Property>
+<rdf:Property rdf:ID="part-of"><rdfs:domain rdf:resource="#teeth"/><rdfs:range rdf:resource="#body"/></rdf:Property>
+<rdf:Property rdf:ID="prevented-by"><rdfs:domain rdf:resource="#age_related_loss_of_memory"/><rdfs:range rdf:resource="#soy"/></rdf:Property>
+<rdf:Property rdf:ID="prevented-by"><rdfs:domain rdf:resource="#autoimmune_disease"/><rdfs:range rdf:resource="#omega_3"/></rdf:Property>
+<rdf:Property rdf:ID="prevented-by"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#omega_6"/></rdf:Property>
+<rdf:Property rdf:ID="prevented-by"><rdfs:domain rdf:resource="#breast_cancer"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="prevented-by"><rdfs:domain rdf:resource="#cardiovascular_disease"/><rdfs:range rdf:resource="#soy_product"/></rdf:Property>
+<rdf:Property rdf:ID="prevented-by"><rdfs:domain rdf:resource="#scurvy"/><rdfs:range rdf:resource="#vitamin_c"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#omega_3"/><rdfs:range rdf:resource="#autoimmune_disease"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#age_related_loss_of_memory"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#immune_system"/><rdfs:range rdf:resource="#disease"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#iron"/><rdfs:range rdf:resource="#anemia"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#omega_6"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#infection"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#hot_flash"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#prostate_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#type_2_diabetes"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#soy_product"/><rdfs:range rdf:resource="#breast_cancer"/></rdf:Property>
+<rdf:Property rdf:ID="prevents"><rdfs:domain rdf:resource="#vitamin_c"/><rdfs:range rdf:resource="#scurvy"/></rdf:Property>
+<rdf:Property rdf:ID="prevents-absorption-of"><rdfs:domain rdf:resource="#phosphorus"/><rdfs:range rdf:resource="#vitamin_c"/></rdf:Property>
+<rdf:Property rdf:ID="prevents-absorption-of"><rdfs:domain rdf:resource="#water_cheese"/><rdfs:range rdf:resource="#vitamin_c"/></rdf:Property>
+<rdf:Property rdf:ID="prevents-absorption-of"><rdfs:domain rdf:resource="#casein"/><rdfs:range rdf:resource="#vitamin_c"/></rdf:Property>
+<rdf:Property rdf:ID="reduces"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#blood_pressure"/></rdf:Property>
+<rdf:Property rdf:ID="reduces"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#diabetes"/></rdf:Property>
+<rdf:Property rdf:ID="reduces"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#cholesterol"/></rdf:Property>
+<rdf:Property rdf:ID="reduces"><rdfs:domain rdf:resource="#soy"/><rdfs:range rdf:resource="#menopausal_symptom"/></rdf:Property>
+<rdf:Property rdf:ID="reduces"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#iron"/></rdf:Property>
+<rdf:Property rdf:ID="reduces"><rdfs:domain rdf:resource="#protein"/><rdfs:range rdf:resource="#calcium"/></rdf:Property>
+<rdf:Property rdf:ID="reduces"><rdfs:domain rdf:resource="#milk_product"/><rdfs:range rdf:resource="#cardiovascular_disease"/></rdf:Property>
+<rdf:Property rdf:ID="reduces-damage-to"><rdfs:domain rdf:resource="#vitamin_b12"/><rdfs:range rdf:resource="#nervous_system"/></rdf:Property>
+<rdf:Property rdf:ID="source-of"><rdfs:domain rdf:resource="#dairy_product"/><rdfs:range rdf:resource="#nutritional_element"/></rdf:Property>
+<rdf:Property rdf:ID="stimulates"><rdfs:domain rdf:resource="#leucine"/><rdfs:range rdf:resource="#protein_synthesis"/></rdf:Property>
+<rdf:Property rdf:ID="strengthens"><rdfs:domain rdf:resource="#dairy_protein"/><rdfs:range rdf:resource="#bone"/></rdf:Property>
+<rdf:Property rdf:ID="strengthens"><rdfs:domain rdf:resource="#calcium"/><rdfs:range rdf:resource="#bone"/></rdf:Property>
+<rdf:Property rdf:ID="strengthens"><rdfs:domain rdf:resource="#vitamin_d"/><rdfs:range rdf:resource="#bone"/></rdf:Property>
