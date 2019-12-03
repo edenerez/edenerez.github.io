@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<body ng-app="myApp">
+		<div ng-controller="myCtrl" style="margin-left:40px;">
+			<style>
+				h3 {
+    				font-size: 18px;
+    				font-weight: bold;
+    				color: #8c1515;
+    				margin-top: 20px;
+    				margin-bottom: 0em;
+				}
+				table, th, td {
+    				border: 1px solid black;
+    				border-collapse: collapse;
+				}
+				.header {
+					font-weight:bold;
+				}
+			</style>
+
+			<h1>Magic Square Engine</h1>
+
+			<br/>
+			<div>
+				<button style="color:blue;font-size:18px;font-weight: bold;" ng-click="myFunc()">Generate</button>
+			</div>
+
+			<br/>
+			<table>
+				<tr>
+					<td>
+						<input type="number" ng-model="input_num" />
+					</td>
+
+				</tr>
+
+			</table>
+			<br/><br/>
+			<div ng-show="result">
+
+
+				<br/>
+				<table>
+					<tr ng-repeat="row in result">
+						<td  ng-repeat="value in row">{{value}}</td>
+					</tr>
+				</table>
+				<br/>
+				<br/>
+
+
+			</div>
+
+
+		</div>
+		<script>
+
+			angular.module('myApp', [])
+			  .controller('myCtrl', ['$scope', function($scope) {
+
+				$scope.base_num = 99;
+			    $scope.input_num = 101;
+
+			  	$scope.myFunc = function() {
+					if ($scope.input_num < 600) {
+						$scope.result = [[14, 21, 40, 19], [18, 25, 44, 23], [12, 19, 38, 17], [17, 24, 43, 22]];
+					} else {
+						$scope.base_num = 577;
+						$scope.result = [[140, 101, 208, 133], [156, 117, 224, 149], [124, 85, 192, 117], [135, 96, 203, 128]];
+					}
+
+					var dif = $scope.input_num - $scope.base_num;
+					alert(dif);
+					var m = dif % 4;
+					alert(m);
+					var e = (dif-m)/4;
+					alert(e);
+					for (i=0; i<4; i++)
+					{
+						for(j=0;j<4;j++)
+						{
+							$scope.result[j][i] += e;
+							if (j < m)
+								$scope.result[j][i] += 1;
+						}
+					}
+
+			    };
+			    
+			  }]);
+			
+		</script>
+
+	</body>
+
+</html>
