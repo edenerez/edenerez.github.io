@@ -52,7 +52,11 @@
 				</table>
 				<br/>
 				<br/>
-
+				<table>
+					<tr ng-repeat="row in result2">
+						<td  ng-repeat="value in row">{{value}}</td>
+					</tr>
+				</table>
 
 			</div>
 
@@ -67,6 +71,8 @@
 			    $scope.input_num = 101;
 
 			  	$scope.myFunc = function() {
+					$scope.result2 = [[8, 11, 14, 1], [13, 2, 7, 12], [3, 16, 9, 6], [10, 5, 4, 15]];
+					
 					if ($scope.input_num < 600) {
 						$scope.result = [[14, 21, 40, 19], [18, 25, 44, 23], [12, 19, 38, 17], [17, 24, 43, 22]];
 					} else {
@@ -84,6 +90,19 @@
 							$scope.result[j][i] += e;
 							if (j < m)
 								$scope.result[j][i] += 1;
+						}
+					}
+					
+					var dif2 = $scope.input_num - 34;
+					var m2 = dif2 % 4;
+					var e2 = (dif2-m2)/4;
+					for (i=0; i<4; i++)
+					{
+						for(j=0;j<4;j++)
+						{
+							//$scope.result[j][i] += e;
+							//if (j < m)
+							//	$scope.result[j][i] += 1;
 						}
 					}
 
