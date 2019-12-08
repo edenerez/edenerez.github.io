@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<body ng-app="myApp">
+		<div ng-controller="myCtrl" style="margin-left:40px; margin-right:40px;">
+			<style>
+				h3 {
+    				font-size: 18px;
+    				font-weight: bold;
+    				color: #8c1515;
+    				margin-top: 20px;
+    				margin-bottom: 0em;
+				}
+				table, th, td {
+    				border: 5px solid black;
+    				border-collapse: collapse;
+				}
+				.header {
+					font-weight:bold;
+				}
+			</style>
+
+			<br/>
+	
+				<table style="width: 800px; hight: 800px;">
+					<tr ng-repeat="row in result">
+						<td align="center" style="font-size: 72px;" ng-repeat="value in row">{{value}}</td>
+					</tr>
+				</table>
+
+		</div>
+		<script>
+
+			angular.module('myApp', [])
+			  .controller('myCtrl', ['$scope', function($scope) {
+				  
+				var url = new URL(window.location.href);
+			
+				$scope.base_num = 99; 	
+				$scope.input_num  = parseInt(url.searchParams.get("param1"));
+        
+					if ($scope.input_num < 600) {
+						$scope.result = [[14, 21, 40, 19], [18, 25, 44, 23], [12, 19, 38, 17], [17, 24, 43, 22]];
+					} else {
+						$scope.base_num = 577;
+						$scope.result = [[140, 101, 208, 133], [156, 117, 224, 149], [124, 85, 192, 117], [135, 96, 203, 128]];
+					}
+					var dif = $scope.input_num - $scope.base_num;
+					var m = dif % 4;
+					var e = (dif-m)/4;
+					for (i=0; i<4; i++)
+					{
+						for(j=0;j<4;j++)
+						{
+							$scope.result[j][i] += e;
+							if (j < m)
+								$scope.result[j][i] += 1;
+						}
+					}
+			    
+			  }]);
+			
+		</script>
+
+	</body>
+
+</html>
