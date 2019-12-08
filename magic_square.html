@@ -46,7 +46,8 @@
 
 				<br/>
 				<h2>Dynamic Magic Square</h2>
-				<a>link to print page</a>
+				<a href="{{'http://edenerez.com/print_dynamic.html?param1=' + input_num}}">link to print page</a>
+				<br/>
 				<table>
 					<tr ng-repeat="row in result">
 						<td  ng-repeat="value in row">{{value}}</td>
@@ -56,6 +57,7 @@
 				<br/>
 				<h2>Static Magic Square</h2>
 				<a href="{{'http://edenerez.com/print_static.html?param1=' + input_num}}">link to print page</a>
+				<br/>
 				<table>
 					<tr ng-repeat="row in result2">
 						<td  ng-repeat="value in row">{{value}}</td>
