@@ -38,9 +38,7 @@
 			  .controller('myCtrl', ['$scope', function($scope) {
 				  
 				var url = new URL(window.location.href);
-			
-				alert(url.searchParams.get("param1"));
-			    	
+						    	
 				$scope.input_num  = parseInt(url.searchParams.get("param1"));
 					$scope.result2 = [[8, 11, 14, 1], [13, 2, 7, 12], [3, 16, 9, 6], [10, 5, 4, 15]];
           
