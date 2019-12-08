@@ -5,7 +5,7 @@
 	</head>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<body ng-app="myApp">
-		<div ng-controller="myCtrl" style="margin-left:40px; ">
+		<div ng-controller="myCtrl" style="margin-left:40px; margin-right:40px;">
 			<style>
 				h3 {
     				font-size: 18px;
@@ -25,9 +25,9 @@
 
 			<br/>
 	
-				<table style="width: 100%;">
+				<table style="width: 800px; hight: 800px;">
 					<tr ng-repeat="row in result2">
-						<td  ng-repeat="value in row">{{value}}</td>
+						<td align="center" style="font-size: 72px;" ng-repeat="value in row">{{value}}</td>
 					</tr>
 				</table>
 
