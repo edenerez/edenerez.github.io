@@ -35,11 +35,13 @@
 		<script>
 
 			angular.module('myApp', [])
-			  .controller('myCtrl', ['$scope', '$location', function($scope, $location) {
+			  .controller('myCtrl', ['$scope', function($scope) {
 				  
-				alert($location.search().param1);
+				var url = new URL(window.location.href);
+			
+				alert(url.searchParams.get("param1"););
 			    	
-				$scope.input_num  = parseInt($location.search().param1);
+				$scope.input_num  = parseInt(url.searchParams.get("param1"););
 					$scope.result2 = [[8, 11, 14, 1], [13, 2, 7, 12], [3, 16, 9, 6], [10, 5, 4, 15]];
           
 					var dif2 = $scope.input_num - 34;
