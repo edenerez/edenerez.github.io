@@ -1,4 +1,8 @@
-<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths skrollr skrollr-desktop js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" dir="rtl" lang="he-IL" prefix="og: http://ogp.me/ns#"><!--<![endif]--><head><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="https://connect.facebook.net/he_IL/sdk.js?hash=2dff39a6175efdf187f879bc7bdb74a5&amp;ua=modern_es6" async="" crossorigin="anonymous"></script>
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths skrollr skrollr-desktop js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" dir="rtl" lang="he-IL" prefix="og: http://ogp.me/ns#"><!--<![endif]--><head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="https://connect.facebook.net/he_IL/sdk.js?hash=2dff39a6175efdf187f879bc7bdb74a5&amp;ua=modern_es6" async="" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>????, ??? ????? - hakosem.co.il</title>
@@ -715,10 +719,10 @@
 				<div data-elementor-type="post" data-elementor-id="19689" class="elementor elementor-19689" data-elementor-settings="[]">
 					<div class="elementor-inner">
 						<div class="elementor-section-wrap">
-							<div style="margin-right: 30%;">
+							<div style="margin-right: 30%;" ng-app="myApp" ng-controller="myCtrl">
 
 
-								<h1>Magic Square Engine</h1>
+								<h1>מנוע ריבועי קסם</h1>
 
 								<br>
 								<div>
@@ -736,27 +740,80 @@
 
 									</tbody></table>
 								<br><br>
-								<div ng-show="result" class="ng-hide">
+								<div ng-show="result">
 
 
 									<br>
-									<h2>Dynamic Magic Square</h2>
-									<a href="https://hakosem.co.il/magic_square/print_dynamic.html?param1=101">link to print page</a>
+									<h2>ריבוע קסם דינמי</h2>
+									<a href="{{'http://edenerez.com/print_dynamic.html?param1=' + input_num}}">link to print page</a>
 									<br><br>
 									<table>
-										<tbody><!-- ngRepeat: row in result -->
-										</tbody></table>
+										<tr ng-repeat="row in result">
+											<td  ng-repeat="value in row">{{value}}</td>
+										</tr>
+									</table>
 									<br>
 									<br>
-									<h2>Static Magic Square</h2>
-									<a href="https://hakosem.co.il/magic_square/print_static.html?param1=101">link to print page</a>
+									<h2>ריבוע קסם סטטי</h2>
+									<a href="{{'http://edenerez.com/print_static.html?param1=' + input_num}}">link to print page</a>
 									<br><br>
 									<table>
-										<tbody><!-- ngRepeat: row in result2 -->
-										</tbody></table>
+										<tr ng-repeat="row in result2">
+											<td  ng-repeat="value in row">{{value}}</td>
+										</tr>
+									</table>
 
 								</div>
-
+			<script>
+			angular.module('myApp', [])
+			  .controller('myCtrl', ['$scope', function($scope) {
+				$scope.base_num = 99;
+			    	$scope.input_num = 101;
+			  	$scope.myFunc = function() {
+					$scope.result2 = [[8, 11, 14, 1], [13, 2, 7, 12], [3, 16, 9, 6], [10, 5, 4, 15]];
+					
+					if ($scope.input_num < 600) {
+						$scope.result = [[14, 21, 40, 19], [18, 25, 44, 23], [12, 19, 38, 17], [17, 24, 43, 22]];
+					} else {
+						$scope.base_num = 577;
+						$scope.result = [[140, 101, 208, 133], [156, 117, 224, 149], [124, 85, 192, 117], [135, 96, 203, 128]];
+					}
+					var dif = $scope.input_num - $scope.base_num;
+					var m = dif % 4;
+					var e = (dif-m)/4;
+					for (i=0; i<4; i++)
+					{
+						for(j=0;j<4;j++)
+						{
+							$scope.result[j][i] += e;
+							if (j < m)
+								$scope.result[j][i] += 1;
+						}
+					}
+					
+					var dif2 = $scope.input_num - 34;
+					var m2 = dif2 % 4;
+					var e2 = (dif2-m2)/4;
+					for (i=0; i<4; i++)
+					{
+						for(j=0;j<4;j++)
+						{
+							$scope.result2[j][i] += e2;
+							if (j == 0 && i == 2) 
+								$scope.result2[j][i] += m2;
+							if (j == 1 && i == 0) 
+								$scope.result2[j][i] += m2;
+							if (j == 2 && i == 1) 
+								$scope.result2[j][i] += m2;
+							if (j == 3 && i == 3) 
+								$scope.result2[j][i] += m2;
+						}
+					}
+			    };
+			    
+			  }]);
+			
+		</script>
 
 							</div>
 
@@ -793,7 +850,7 @@
 
 <div id="pojo-scroll-up" class="pojo-scroll-up-left" data-offset="50" data-duration="750" style="font-size: 36px; border-radius: 6px; display: block;">
 	<div class="pojo-scroll-up-inner">
-		<a class="pojo-scroll-up-button" href="javascript:void(0);" title="????? ???? ?????">
+		<a class="pojo-scroll-up-button" href="javascript:void(0);" title="">
 		</a>
 	</div>
 </div>
